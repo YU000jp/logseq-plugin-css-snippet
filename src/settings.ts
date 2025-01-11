@@ -1,4 +1,5 @@
 import { SettingSchemaDesc } from '@logseq/libs/dist/LSPlugin.user'
+import { t } from 'logseq-l10n'
 
 /* user setting */
 // https://logseq.github.io/plugins/types/SettingSchemaDesc.html
@@ -6,23 +7,8 @@ export const settingsTemplate = (): SettingSchemaDesc[] => [
     {
         key: "heading001",
         type: "heading",
-        title: "heading title",
+        title: t("No settings for this plugin"),
         default: "",
-        description: "description here",
+        description: "",
     },
-    {
-        key: "functionA",
-        type: "boolean",
-        title: "function A",
-        default: true,
-        description: "description here",
-    },
-    {
-        key: "space",
-        type: "string",
-        title: "space",
-        default: "",
-        description: "description here",
-        inputAs: "textarea",
-    }
 ]

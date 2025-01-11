@@ -1,3 +1,26 @@
 {
-
+  "Snippet title": "スニペットのタイトル",
+  "Enable": "有効にする",
+  "Disable": "無効にする",
+  "Delete this snippet": "このスニペットを削除",
+  "Clear content": "コンテンツをクリア",
+  "Copy CSS": "CSSをコピー",
+  "Duplicate snippet": "スニペットを複製",
+  "CSS copied to clipboard": "CSS をクリップボードにコピーしました",
+  "Cannot remove a snippet with content. Please clear the title and content before removing.": "コンテンツを含むスニペットは削除できません。タイトルとコンテンツをクリアしてから削除してください。",
+  "Save": "セーブ",
+  "Open snippet list": "スニペットリストを開く",
+  "Open settings": "設定を開く",
+  "Snippets registered here will be reflected as CSS.": "ここで登録したスニペットはCSSとして反映されます。",
+  "CSS snippets": "CSS スニペット",
+  "Add a snippet at the end": "最後にスニペットを追加する",
+  "Snippets can be dragged up and down to swap snippets.": "上下にドラッグして、スニペットを入れ替えできます。",
+  "Erase the last snippet": "最後のスニペットを消去",
+  "Print all snippets": "すべてのスニペットを印刷",
+  "All snippets are saved in the plugin settings.": "すべてのスニペットはプラグイン設定に保存されます。",
+  "Please save important code on your own.": "重要なコードはご自身で保存してください。",
+  "When the focus is removed from the input field, it is automatically saved.": "フォーカスが入力フィールドから取り除かれると、自動的に保存されます。",
+  "Last saved time": "最後に保存した時刻",
+  "No snippet found.": "スニペットが見つかりませんでした。",
+  "No settings for this plugin": "このプラグインの設定はありません"
 }
