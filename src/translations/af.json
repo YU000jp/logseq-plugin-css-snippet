@@ -22,5 +22,6 @@
   "When the focus is removed from the input field, it is automatically saved.": "Wanneer die fokus uit die invoerveld verwyder word, word dit outomaties gestoor.",
   "Last saved time": "Laaste bespaarde tyd",
   "No snippet found.": "Geen brokkie gevind nie.",
-  "No settings for this plugin": "Geen instellings vir hierdie inprop nie"
+  "No settings for this plugin": "Geen instellings vir hierdie inprop nie",
+  "Enter CSS here": "Voer CSS hier in"
 }

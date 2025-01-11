@@ -22,5 +22,6 @@
   "When the focus is removed from the input field, it is automatically saved.": "フォーカスが入力フィールドから取り除かれると、自動的に保存されます。",
   "Last saved time": "最後に保存した時刻",
   "No snippet found.": "スニペットが見つかりませんでした。",
-  "No settings for this plugin": "このプラグインの設定はありません"
+  "No settings for this plugin": "このプラグインの設定はありません",
+  "Enter CSS here": "ここにCSSを入力"
 }

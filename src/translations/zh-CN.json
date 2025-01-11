@@ -22,5 +22,6 @@
   "When the focus is removed from the input field, it is automatically saved.": "从输入字段中删除焦点时，它会自动保存。",
   "Last saved time": "上次保存的时间",
   "No snippet found.": "未找到代码段。",
-  "No settings for this plugin": "此插件没有设置"
+  "No settings for this plugin": "此插件没有设置",
+  "Enter CSS here": "在此处输入 CSS"
 }

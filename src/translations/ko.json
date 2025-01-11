@@ -22,5 +22,6 @@
   "When the focus is removed from the input field, it is automatically saved.": "입력 필드에서 초점이 제거되면 자동으로 저장됩니다.",
   "Last saved time": "마지막 저장 시간",
   "No snippet found.": "스 니펫을 찾을 수 없습니다.",
-  "No settings for this plugin": "이 플러그인에 대한 설정이 없습니다."
+  "No settings for this plugin": "이 플러그인에 대한 설정이 없습니다.",
+  "Enter CSS here": "여기에 CSS를 입력하십시오."
 }

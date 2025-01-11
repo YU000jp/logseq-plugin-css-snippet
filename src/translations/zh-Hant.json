@@ -22,5 +22,6 @@
   "When the focus is removed from the input field, it is automatically saved.": "從輸入欄位中刪除焦點時，它會自動儲存。",
   "Last saved time": "上次保存的時間",
   "No snippet found.": "未找到代碼段。",
-  "No settings for this plugin": "此外掛程式沒有設置"
+  "No settings for this plugin": "此外掛程式沒有設置",
+  "Enter CSS here": "在此處輸入 CSS"
 }

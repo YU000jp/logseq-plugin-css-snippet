@@ -22,5 +22,6 @@
   "When the focus is removed from the input field, it is automatically saved.": "Gdy fokus zostanie usunięty z pola wejściowego, zostanie automatycznie zapisany.",
   "Last saved time": "Ostatni zapisany czas",
   "No snippet found.": "Nie znaleziono fragmentu kodu.",
-  "No settings for this plugin": "Brak ustawień dla tej wtyczki"
+  "No settings for this plugin": "Brak ustawień dla tej wtyczki",
+  "Enter CSS here": "Wprowadź CSS tutaj"
 }

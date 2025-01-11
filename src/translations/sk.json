@@ -22,5 +22,6 @@
   "When the focus is removed from the input field, it is automatically saved.": "Keď sa zameranie odstráni zo vstupného poľa, automaticky sa uloží.",
   "Last saved time": "Posledný uložený čas",
   "No snippet found.": "Nenašiel sa žiadny úryvok.",
-  "No settings for this plugin": "Žiadne nastavenia pre tento doplnok"
+  "No settings for this plugin": "Žiadne nastavenia pre tento doplnok",
+  "Enter CSS here": "Tu zadajte CSS"
 }

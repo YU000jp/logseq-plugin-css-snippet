@@ -22,5 +22,6 @@
   "When the focus is removed from the input field, it is automatically saved.": "Odak giriş alanından kaldırıldığında, otomatik olarak kaydedilir.",
   "Last saved time": "Son kaydedilen zaman",
   "No snippet found.": "Kod parçacığı bulunamadı.",
-  "No settings for this plugin": "Bu eklenti için ayar yok"
+  "No settings for this plugin": "Bu eklenti için ayar yok",
+  "Enter CSS here": "CSS'yi buraya girin"
 }

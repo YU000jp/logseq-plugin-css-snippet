@@ -22,5 +22,6 @@
   "When the focus is removed from the input field, it is automatically saved.": "Коли фокус видаляється з поля введення, він автоматично зберігається.",
   "Last saved time": "Останній збережений час",
   "No snippet found.": "Фрагмент не знайдено.",
-  "No settings for this plugin": "Немає налаштувань для цього плагіна"
+  "No settings for this plugin": "Немає налаштувань для цього плагіна",
+  "Enter CSS here": "Введіть CSS тут"
 }

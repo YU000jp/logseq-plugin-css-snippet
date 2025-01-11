@@ -22,5 +22,6 @@
   "When the focus is removed from the input field, it is automatically saved.": "Saat fokus dihapus dari bidang input, fokus akan disimpan secara otomatis.",
   "Last saved time": "Waktu terakhir disimpan",
   "No snippet found.": "Tidak ada cuplikan yang ditemukan.",
-  "No settings for this plugin": "Tidak ada pengaturan untuk plugin ini"
+  "No settings for this plugin": "Tidak ada pengaturan untuk plugin ini",
+  "Enter CSS here": "Masukkan CSS di sini"
 }
