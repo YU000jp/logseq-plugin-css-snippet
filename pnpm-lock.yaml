@@ -20,25 +20,25 @@ importers:
     devDependencies:
       '@semantic-release/changelog':
         specifier: ^6.0.3
-        version: 6.0.3(semantic-release@24.0.0(typescript@5.5.3))
+        version: 6.0.3(semantic-release@24.2.1(typescript@5.7.3))
       '@semantic-release/exec':
         specifier: ^6.0.3
-        version: 6.0.3(semantic-release@24.0.0(typescript@5.5.3))
+        version: 6.0.3(semantic-release@24.2.1(typescript@5.7.3))
       '@semantic-release/git':
         specifier: ^10.0.1
-        version: 10.0.1(semantic-release@24.0.0(typescript@5.5.3))
+        version: 10.0.1(semantic-release@24.2.1(typescript@5.7.3))
       '@types/node':
-        specifier: ^20.14.10
-        version: 20.14.10
+        specifier: ^22.10.5
+        version: 22.10.5
       conventional-changelog-conventionalcommits:
         specifier: ^8.0.0
         version: 8.0.0
       cz-conventional-changelog:
         specifier: ^3.3.0
-        version: 3.3.0(@types/node@20.14.10)(typescript@5.5.3)
+        version: 3.3.0(@types/node@22.10.5)(typescript@5.7.3)
       jest:
         specifier: ^29.7.0
-        version: 29.7.0(@types/node@20.14.10)
+        version: 29.7.0(@types/node@22.10.5)
       npx:
         specifier: ^10.2.2
         version: 10.2.2
@@ -46,14 +46,14 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       semantic-release:
-        specifier: ^24.0.0
-        version: 24.0.0(typescript@5.5.3)
+        specifier: ^24.2.1
+        version: 24.2.1(typescript@5.7.3)
       typescript:
-        specifier: ^5.5.3
-        version: 5.5.3
+        specifier: ^5.7.3
+        version: 5.7.3
       vite:
-        specifier: ^5.3.3
-        version: 5.3.3(@types/node@20.14.10)
+        specifier: ^5.3.6
+        version: 5.3.6(@types/node@22.10.5)
       vite-plugin-logseq:
         specifier: ^1.1.2
         version: 1.1.2
@@ -708,11 +708,11 @@ packages:
     peerDependencies:
       semantic-release: '>=18.0.0'
 
-  '@semantic-release/github@10.1.0':
-    resolution: {integrity: sha512-g4RHBaCWJjGcEy95TeTdajlmUoP5jAaF5trGkFXHKsT/VpCwawhZbNW66+sUr0c2CIAdfpCxxmK+E7GyWBWJDw==}
+  '@semantic-release/github@11.0.1':
+    resolution: {integrity: sha512-Z9cr0LgU/zgucbT9cksH0/pX9zmVda9hkDPcgIE0uvjMQ8w/mElDivGjx1w1pEQ+MuQJ5CBq3VCF16S6G4VH3A==}
     engines: {node: '>=20.8.1'}
     peerDependencies:
-      semantic-release: '>=20.1.0'
+      semantic-release: '>=24.1.0'
 
   '@semantic-release/npm@12.0.1':
     resolution: {integrity: sha512-/6nntGSUGK2aTOI0rHPwY3ZjgY9FkXmEHbW9Kr+62NVOsyqpKKeP0lrCH+tphv+EsNdJNmqqwijTEnVWUMQ2Nw==}
@@ -777,8 +777,8 @@ packages:
   '@types/istanbul-reports@3.0.4':
     resolution: {integrity: sha512-pk2B1NWalF9toCRu6gjBzR69syFjP4Od8WRAX+0mmf9lAjCRicLOWc+ZrxZHx/0XRjotgkF9t6iaMJ+aXcOdZQ==}
 
-  '@types/node@20.14.10':
-    resolution: {integrity: sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==}
+  '@types/node@22.10.5':
+    resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1460,6 +1460,10 @@ packages:
     resolution: {integrity: sha512-puUZAUKT5m8Zzvs72XWy3HtvVbTWljRE66cP60bxJzAqf2DgICo7lYTY2IHUmLnNpjYvw5bvmoHvPc0QO2a62w==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
+  hosted-git-info@8.0.2:
+    resolution: {integrity: sha512-sYKnA7eGln5ov8T8gnYlkSOxFJvywzEx9BueN6xo/GKO8PGiI6uK6xx+DIGe45T3bdVjLAQDQW1aicT8z8JwQg==}
+    engines: {node: ^18.17.0 || >=20.5.0}
+
   html-escaper@2.0.2:
     resolution: {integrity: sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==}
 
@@ -1501,6 +1505,10 @@ packages:
   import-from-esm@1.3.4:
     resolution: {integrity: sha512-7EyUlPFC0HOlBDpUFGfYstsU7XHxZJKAAMzCT8wZ0hMW7b+hG51LIKTDcsgtz8Pu6YC0HqRVbX+rVUtsGMUKvg==}
     engines: {node: '>=16.20'}
+
+  import-from-esm@2.0.0:
+    resolution: {integrity: sha512-YVt14UZCgsX1vZQ3gKjkWVdBdHQ6eu3MPU1TBgL1H5orXe2+jWD006WCPPtOuwlQm10NuzOW5WawiF1Q9veW8g==}
+    engines: {node: '>=18.20'}
 
   import-local@3.1.0:
     resolution: {integrity: sha512-ASB07uLtnDs1o6EHjKpX34BKYDSqnFerfTOJL2HvMqF70LnxpjkzDB8J44oT9pu4AMPkQwf8jl6szgvNd2tRIg==}
@@ -2392,8 +2400,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  semantic-release@24.0.0:
-    resolution: {integrity: sha512-v46CRPw+9eI3ZuYGF2oAjqPqsfbnfFTwLBgQsv/lch4goD09ytwOTESMN4QIrx/wPLxUGey60/NMx+ANQtWRsA==}
+  semantic-release@24.2.1:
+    resolution: {integrity: sha512-z0/3cutKNkLQ4Oy0HTi3lubnjTsdjjgOqmxdPjeYWe6lhFqUPfwslZxRHv3HDZlN4MhnZitb9SLihDkZNxOXfQ==}
     engines: {node: '>=20.8.1'}
     hasBin: true
 
@@ -2638,8 +2646,8 @@ packages:
     resolution: {integrity: sha512-ADn2w7hVPcK6w1I0uWnM//y1rLXZhzB9mr0a3OirzclKF1Wp6VzevUmzz/NRAWunOT6E8HrnpGY7xOfc6K57fA==}
     engines: {node: '>=16'}
 
-  typescript@5.5.3:
-    resolution: {integrity: sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==}
+  typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2648,8 +2656,8 @@ packages:
     engines: {node: '>=0.8.0'}
     hasBin: true
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
   unicode-emoji-modifier-base@1.0.0:
     resolution: {integrity: sha512-yLSH4py7oFH3oG/9K+XWrz1pSi3dfUrWEnInbxMfArOfc1+33BlGPQtLsOYwvdMy11AwUBetYuaRxSPqgkq+8g==}
@@ -2696,8 +2704,8 @@ packages:
   vite-plugin-logseq@1.1.2:
     resolution: {integrity: sha512-l5YvoH3K25Zx9eqgoJFug7NfVqSPwq7/FcYYhN1TkdG8ZOiD+c+TAwdCS2dJbGgvx8GmSpbgwSZWgslB+wH53g==}
 
-  vite@5.3.3:
-    resolution: {integrity: sha512-NPQdeCU0Dv2z5fu+ULotpuq5yfCS1BzKUIPhNbP3YBfAMGJXbt2nS+sbTFu+qchaqWTD+H3JK++nRwr6XIcp6A==}
+  vite@5.3.6:
+    resolution: {integrity: sha512-es78AlrylO8mTVBygC0gTC0FENv0C6T496vvd33ydbjF/mIi9q3XQ9A3NWo5qLGFKywvz10J26813OkLvcQleA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3066,15 +3074,15 @@ snapshots:
   '@commitlint/execute-rule@19.0.0':
     optional: true
 
-  '@commitlint/load@19.2.0(@types/node@20.14.10)(typescript@5.5.3)':
+  '@commitlint/load@19.2.0(@types/node@22.10.5)(typescript@5.7.3)':
     dependencies:
       '@commitlint/config-validator': 19.0.3
       '@commitlint/execute-rule': 19.0.0
       '@commitlint/resolve-extends': 19.1.0
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
-      cosmiconfig: 9.0.0(typescript@5.5.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.14.10)(cosmiconfig@9.0.0(typescript@5.5.3))(typescript@5.5.3)
+      cosmiconfig: 9.0.0(typescript@5.7.3)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@22.10.5)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -3181,7 +3189,7 @@ snapshots:
   '@jest/console@29.7.0':
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       chalk: 4.1.2
       jest-message-util: 29.7.0
       jest-util: 29.7.0
@@ -3194,14 +3202,14 @@ snapshots:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       ci-info: 3.9.0
       exit: 0.1.2
       graceful-fs: 4.2.11
       jest-changed-files: 29.7.0
-      jest-config: 29.7.0(@types/node@20.14.10)
+      jest-config: 29.7.0(@types/node@22.10.5)
       jest-haste-map: 29.7.0
       jest-message-util: 29.7.0
       jest-regex-util: 29.6.3
@@ -3226,7 +3234,7 @@ snapshots:
     dependencies:
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       jest-mock: 29.7.0
 
   '@jest/expect-utils@29.7.0':
@@ -3244,7 +3252,7 @@ snapshots:
     dependencies:
       '@jest/types': 29.6.3
       '@sinonjs/fake-timers': 10.3.0
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       jest-message-util: 29.7.0
       jest-mock: 29.7.0
       jest-util: 29.7.0
@@ -3266,7 +3274,7 @@ snapshots:
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
       '@jridgewell/trace-mapping': 0.3.25
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       chalk: 4.1.2
       collect-v8-coverage: 1.0.2
       exit: 0.1.2
@@ -3336,7 +3344,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       '@types/yargs': 17.0.32
       chalk: 4.1.2
 
@@ -3515,15 +3523,15 @@ snapshots:
 
   '@sec-ant/readable-stream@0.4.1': {}
 
-  '@semantic-release/changelog@6.0.3(semantic-release@24.0.0(typescript@5.5.3))':
+  '@semantic-release/changelog@6.0.3(semantic-release@24.2.1(typescript@5.7.3))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
       fs-extra: 11.2.0
       lodash: 4.17.21
-      semantic-release: 24.0.0(typescript@5.5.3)
+      semantic-release: 24.2.1(typescript@5.7.3)
 
-  '@semantic-release/commit-analyzer@13.0.0(semantic-release@24.0.0(typescript@5.5.3))':
+  '@semantic-release/commit-analyzer@13.0.0(semantic-release@24.2.1(typescript@5.7.3))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.0.0
@@ -3533,7 +3541,7 @@ snapshots:
       import-from-esm: 1.3.4
       lodash-es: 4.17.21
       micromatch: 4.0.7
-      semantic-release: 24.0.0(typescript@5.5.3)
+      semantic-release: 24.2.1(typescript@5.7.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -3541,7 +3549,7 @@ snapshots:
 
   '@semantic-release/error@4.0.0': {}
 
-  '@semantic-release/exec@6.0.3(semantic-release@24.0.0(typescript@5.5.3))':
+  '@semantic-release/exec@6.0.3(semantic-release@24.2.1(typescript@5.7.3))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
@@ -3549,11 +3557,11 @@ snapshots:
       execa: 5.1.1
       lodash: 4.17.21
       parse-json: 5.2.0
-      semantic-release: 24.0.0(typescript@5.5.3)
+      semantic-release: 24.2.1(typescript@5.7.3)
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/git@10.0.1(semantic-release@24.0.0(typescript@5.5.3))':
+  '@semantic-release/git@10.0.1(semantic-release@24.2.1(typescript@5.7.3))':
     dependencies:
       '@semantic-release/error': 3.0.0
       aggregate-error: 3.1.0
@@ -3563,11 +3571,11 @@ snapshots:
       lodash: 4.17.21
       micromatch: 4.0.7
       p-reduce: 2.1.0
-      semantic-release: 24.0.0(typescript@5.5.3)
+      semantic-release: 24.2.1(typescript@5.7.3)
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/github@10.1.0(semantic-release@24.0.0(typescript@5.5.3))':
+  '@semantic-release/github@11.0.1(semantic-release@24.2.1(typescript@5.7.3))':
     dependencies:
       '@octokit/core': 6.1.2
       '@octokit/plugin-paginate-rest': 11.3.3(@octokit/core@6.1.2)
@@ -3584,12 +3592,12 @@ snapshots:
       lodash-es: 4.17.21
       mime: 4.0.4
       p-filter: 4.1.0
-      semantic-release: 24.0.0(typescript@5.5.3)
+      semantic-release: 24.2.1(typescript@5.7.3)
       url-join: 5.0.0
     transitivePeerDependencies:
       - supports-color
 
-  '@semantic-release/npm@12.0.1(semantic-release@24.0.0(typescript@5.5.3))':
+  '@semantic-release/npm@12.0.1(semantic-release@24.2.1(typescript@5.7.3))':
     dependencies:
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
@@ -3602,11 +3610,11 @@ snapshots:
       rc: 1.2.8
       read-pkg: 9.0.1
       registry-auth-token: 5.0.2
-      semantic-release: 24.0.0(typescript@5.5.3)
+      semantic-release: 24.2.1(typescript@5.7.3)
       semver: 7.6.2
       tempy: 3.1.0
 
-  '@semantic-release/release-notes-generator@14.0.1(semantic-release@24.0.0(typescript@5.5.3))':
+  '@semantic-release/release-notes-generator@14.0.1(semantic-release@24.2.1(typescript@5.7.3))':
     dependencies:
       conventional-changelog-angular: 8.0.0
       conventional-changelog-writer: 8.0.0
@@ -3618,7 +3626,7 @@ snapshots:
       into-stream: 7.0.0
       lodash-es: 4.17.21
       read-package-up: 11.0.0
-      semantic-release: 24.0.0(typescript@5.5.3)
+      semantic-release: 24.2.1(typescript@5.7.3)
     transitivePeerDependencies:
       - supports-color
 
@@ -3661,14 +3669,14 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
     optional: true
 
   '@types/estree@1.0.5': {}
 
   '@types/graceful-fs@4.1.9':
     dependencies:
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -3680,9 +3688,9 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-report': 3.0.3
 
-  '@types/node@20.14.10':
+  '@types/node@22.10.5':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.20.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -3952,10 +3960,10 @@ snapshots:
 
   color-name@1.1.4: {}
 
-  commitizen@4.3.0(@types/node@20.14.10)(typescript@5.5.3):
+  commitizen@4.3.0(@types/node@22.10.5)(typescript@5.7.3):
     dependencies:
       cachedir: 2.3.0
-      cz-conventional-changelog: 3.3.0(@types/node@20.14.10)(typescript@5.5.3)
+      cz-conventional-changelog: 3.3.0(@types/node@22.10.5)(typescript@5.7.3)
       dedent: 0.7.0
       detect-indent: 6.1.0
       find-node-modules: 2.1.3
@@ -4014,30 +4022,30 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@20.14.10)(cosmiconfig@9.0.0(typescript@5.5.3))(typescript@5.5.3):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@22.10.5)(cosmiconfig@9.0.0(typescript@5.7.3))(typescript@5.7.3):
     dependencies:
-      '@types/node': 20.14.10
-      cosmiconfig: 9.0.0(typescript@5.5.3)
+      '@types/node': 22.10.5
+      cosmiconfig: 9.0.0(typescript@5.7.3)
       jiti: 1.21.6
-      typescript: 5.5.3
+      typescript: 5.7.3
     optional: true
 
-  cosmiconfig@9.0.0(typescript@5.5.3):
+  cosmiconfig@9.0.0(typescript@5.7.3):
     dependencies:
       env-paths: 2.2.1
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
     optionalDependencies:
-      typescript: 5.5.3
+      typescript: 5.7.3
 
-  create-jest@29.7.0(@types/node@20.14.10):
+  create-jest@29.7.0(@types/node@22.10.5):
     dependencies:
       '@jest/types': 29.6.3
       chalk: 4.1.2
       exit: 0.1.2
       graceful-fs: 4.2.11
-      jest-config: 29.7.0(@types/node@20.14.10)
+      jest-config: 29.7.0(@types/node@22.10.5)
       jest-util: 29.7.0
       prompts: 2.4.2
     transitivePeerDependencies:
@@ -4060,16 +4068,16 @@ snapshots:
 
   csstype@3.1.0: {}
 
-  cz-conventional-changelog@3.3.0(@types/node@20.14.10)(typescript@5.5.3):
+  cz-conventional-changelog@3.3.0(@types/node@22.10.5)(typescript@5.7.3):
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.0(@types/node@20.14.10)(typescript@5.5.3)
+      commitizen: 4.3.0(@types/node@22.10.5)(typescript@5.7.3)
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
       word-wrap: 1.2.5
     optionalDependencies:
-      '@commitlint/load': 19.2.0(@types/node@20.14.10)(typescript@5.5.3)
+      '@commitlint/load': 19.2.0(@types/node@22.10.5)(typescript@5.7.3)
     transitivePeerDependencies:
       - '@types/node'
       - typescript
@@ -4439,6 +4447,10 @@ snapshots:
     dependencies:
       lru-cache: 10.4.3
 
+  hosted-git-info@8.0.2:
+    dependencies:
+      lru-cache: 10.4.3
+
   html-escaper@2.0.2: {}
 
   http-proxy-agent@7.0.2:
@@ -4475,6 +4487,13 @@ snapshots:
       resolve-from: 4.0.0
 
   import-from-esm@1.3.4:
+    dependencies:
+      debug: 4.3.5
+      import-meta-resolve: 4.1.0
+    transitivePeerDependencies:
+      - supports-color
+
+  import-from-esm@2.0.0:
     dependencies:
       debug: 4.3.5
       import-meta-resolve: 4.1.0
@@ -4638,7 +4657,7 @@ snapshots:
       '@jest/expect': 29.7.0
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       chalk: 4.1.2
       co: 4.6.0
       dedent: 1.5.3
@@ -4658,16 +4677,16 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@29.7.0(@types/node@20.14.10):
+  jest-cli@29.7.0(@types/node@22.10.5):
     dependencies:
       '@jest/core': 29.7.0
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
       chalk: 4.1.2
-      create-jest: 29.7.0(@types/node@20.14.10)
+      create-jest: 29.7.0(@types/node@22.10.5)
       exit: 0.1.2
       import-local: 3.1.0
-      jest-config: 29.7.0(@types/node@20.14.10)
+      jest-config: 29.7.0(@types/node@22.10.5)
       jest-util: 29.7.0
       jest-validate: 29.7.0
       yargs: 17.7.2
@@ -4677,7 +4696,7 @@ snapshots:
       - supports-color
       - ts-node
 
-  jest-config@29.7.0(@types/node@20.14.10):
+  jest-config@29.7.0(@types/node@22.10.5):
     dependencies:
       '@babel/core': 7.24.8
       '@jest/test-sequencer': 29.7.0
@@ -4702,7 +4721,7 @@ snapshots:
       slash: 3.0.0
       strip-json-comments: 3.1.1
     optionalDependencies:
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -4731,7 +4750,7 @@ snapshots:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       jest-mock: 29.7.0
       jest-util: 29.7.0
 
@@ -4741,7 +4760,7 @@ snapshots:
     dependencies:
       '@jest/types': 29.6.3
       '@types/graceful-fs': 4.1.9
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -4780,7 +4799,7 @@ snapshots:
   jest-mock@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       jest-util: 29.7.0
 
   jest-pnp-resolver@1.2.3(jest-resolve@29.7.0):
@@ -4815,7 +4834,7 @@ snapshots:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       chalk: 4.1.2
       emittery: 0.13.1
       graceful-fs: 4.2.11
@@ -4843,7 +4862,7 @@ snapshots:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       chalk: 4.1.2
       cjs-module-lexer: 1.3.1
       collect-v8-coverage: 1.0.2
@@ -4889,7 +4908,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -4908,7 +4927,7 @@ snapshots:
     dependencies:
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       emittery: 0.13.1
@@ -4917,17 +4936,17 @@ snapshots:
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@29.7.0(@types/node@20.14.10):
+  jest@29.7.0(@types/node@22.10.5):
     dependencies:
       '@jest/core': 29.7.0
       '@jest/types': 29.6.3
       import-local: 3.1.0
-      jest-cli: 29.7.0(@types/node@20.14.10)
+      jest-cli: 29.7.0(@types/node@22.10.5)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -5431,15 +5450,15 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  semantic-release@24.0.0(typescript@5.5.3):
+  semantic-release@24.2.1(typescript@5.7.3):
     dependencies:
-      '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.0.0(typescript@5.5.3))
+      '@semantic-release/commit-analyzer': 13.0.0(semantic-release@24.2.1(typescript@5.7.3))
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 10.1.0(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/npm': 12.0.1(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/release-notes-generator': 14.0.1(semantic-release@24.0.0(typescript@5.5.3))
+      '@semantic-release/github': 11.0.1(semantic-release@24.2.1(typescript@5.7.3))
+      '@semantic-release/npm': 12.0.1(semantic-release@24.2.1(typescript@5.7.3))
+      '@semantic-release/release-notes-generator': 14.0.1(semantic-release@24.2.1(typescript@5.7.3))
       aggregate-error: 5.0.0
-      cosmiconfig: 9.0.0(typescript@5.5.3)
+      cosmiconfig: 9.0.0(typescript@5.7.3)
       debug: 4.3.5
       env-ci: 11.0.0
       execa: 9.3.0
@@ -5448,8 +5467,8 @@ snapshots:
       get-stream: 6.0.1
       git-log-parser: 1.2.1
       hook-std: 3.0.0
-      hosted-git-info: 7.0.2
-      import-from-esm: 1.3.4
+      hosted-git-info: 8.0.2
+      import-from-esm: 2.0.0
       lodash-es: 4.17.21
       marked: 12.0.2
       marked-terminal: 7.1.0(marked@12.0.2)
@@ -5672,12 +5691,12 @@ snapshots:
 
   type-fest@4.21.0: {}
 
-  typescript@5.5.3: {}
+  typescript@5.7.3: {}
 
   uglify-js@3.18.0:
     optional: true
 
-  undici-types@5.26.5: {}
+  undici-types@6.20.0: {}
 
   unicode-emoji-modifier-base@1.0.0: {}
 
@@ -5720,13 +5739,13 @@ snapshots:
     dependencies:
       magic-string: 0.26.7
 
-  vite@5.3.3(@types/node@20.14.10):
+  vite@5.3.6(@types/node@22.10.5):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.39
       rollup: 4.18.1
     optionalDependencies:
-      '@types/node': 20.14.10
+      '@types/node': 22.10.5
       fsevents: 2.3.3
 
   w3c-keyname@2.2.8: {}
