@@ -12,7 +12,8 @@ This plugin does not work with Logseq db version.
 
 ## Overview
 
-Manage and toggle multiple user custom CSS individually. A duplicate button is also present.
+- Manage and toggle multiple user custom CSS individually. A duplicate button is also present.
+  > ![image](https://github.com/user-attachments/assets/2c8dd3c7-8db4-416d-9e20-17032a207c34)
 
 ---
 
