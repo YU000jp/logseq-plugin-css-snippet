@@ -1,6 +1,6 @@
 # Logseq Plugin: CSS Snippet
 
-- Registered snippets are reflected as CSS.
+- Registered snippets are reflected as CSS. You can edit the CSS snippet on the popup and check its style.
 
 > [!WARNING]
 This plugin does not work with Logseq db version.
@@ -19,11 +19,13 @@ This plugin does not work with Logseq db version.
 
 ## Getting Started
 
-### Install from Logseq Marketplace
+### ~~Install from Logseq Marketplace~~
 
-- Press [`---`] on the top right toolbar to open [`Plugins`]. Select marketplace. Type `CSS` in the search field, select it from the search results and install
-  > ![image](https://github.com/user-attachments/assets/0508bf4b-c29f-4a76-89c5-ff925ea508fd)
+- ~~Press [`---`] on the top right toolbar to open [`Plugins`]. Select marketplace. Type `CSS` in the search field, select it from the search results and install~~
 
+### WARNING
+
+- Registered snippets may accidentally disappear during processing. Please keep a copy of important code.
 ---
 
 ## Showcase / Questions / Ideas / Help
