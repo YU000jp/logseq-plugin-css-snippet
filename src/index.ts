@@ -111,9 +111,13 @@ const createSnippetItem = () => {
   textarea.addEventListener('blur', autoSave)
 
   textarea.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') {
+    if (e.key === 'Enter'
+      || e.key === 'ArrowDown' || e.key === 'Down'
+      || e.key === 'ArrowUp' || e.key === 'Up'
+      || e.key === 'ArrowRight' || e.key === 'Right'
+      || e.key === 'ArrowLeft' || e.key === 'Left'
+    )
       e.stopPropagation()
-    }
   })
 
   enableCheckbox.addEventListener('change', () => {
